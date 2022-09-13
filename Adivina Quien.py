@@ -14,12 +14,12 @@ c.execute(""" CREATE TABLE IF NOT EXISTS OnePiece (
     Pistolas REAL NOT NULL,
     Arma REAL NOT NULL) """)
 
-c.execute("INSERT INTO OnePiece VALUES ('Luffy',1,0,0,0,1,1,0,0)")
-c.execute("INSERT INTO OnePiece VALUES ('Chopper',0,1,0,0,1,1,0,0)")
-c.execute("INSERT INTO OnePiece VALUES ('Robin',1,0,0,1,0,1,0,0)")
-c.execute("INSERT INTO OnePiece VALUES ('Brook',1,0,0,1,0,0,0,1)")
-c.execute("INSERT INTO OnePiece VALUES ('Kaido',1,0,0,0,1,0,0,1)")
-conn.commit()
+#c.execute("INSERT INTO OnePiece VALUES ('Luffy',1,0,0,0,1,1,0,0)")
+#c.execute("INSERT INTO OnePiece VALUES ('Chopper',0,1,0,0,1,1,0,0)")
+#c.execute("INSERT INTO OnePiece VALUES ('Robin',1,0,0,1,0,1,0,0)")
+#c.execute("INSERT INTO OnePiece VALUES ('Brook',1,0,0,1,0,0,0,1)")
+#c.execute("INSERT INTO OnePiece VALUES ('Kaido',1,0,0,0,1,0,0,1)")
+#conn.commit()
 
 c.execute("SELECT * FROM OnePiece")
 OnePiece=c.fetchall()
